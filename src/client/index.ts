@@ -29,10 +29,10 @@ async function main() {
     const command = await getInput();
     switch (command[0]) { 
       case "spawn":
-        commandSpawn(new GameState(username), command.slice(1, -1));
+        commandSpawn(new GameState(username), command);
         break;
       case "move":
-        commandMove(new GameState(username), command.slice(1, -1));
+        commandMove(new GameState(username), command);
         break;
       case "status":
         commandStatus(new GameState(username));
