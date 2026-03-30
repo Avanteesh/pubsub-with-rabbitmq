@@ -144,11 +144,3 @@ Build and run the application in a container:
 docker build -t peril-pubsub .
 docker run -p 5672:5672 peril-pubsub
 ```
-
-## Contributing
-
-This is educational starter code. For contributions or issues related to the Boot.dev course, please refer to the course materials.
-
-## License
-
-See the course license for usage terms.
